@@ -1,0 +1,13 @@
+#include <stdio.h>
+ int largest(int a,int b,int c){
+            if(a>=b && a>=c)
+              printf("a is large");
+           else   if (b>=a && b>=c)
+              printf("b is large");
+              else printf("c is large");
+              
+              
+          }
+ int main(){
+     largest (2,3,5);
+ }
