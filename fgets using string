@@ -1,0 +1,6 @@
+int main(){
+    char vidya[20];
+    printf("enter an array:");
+    fgets(vidya,sizeof(vidya),stdin);
+    printf("%s",vidya);
+}
