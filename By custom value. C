@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+enum Levels {
+    Low = 5,   // 5
+    Medium,    // 6
+    High = 10, // 10
+    VeryHigh   // 11
+};
+
+int main() {
+    enum Levels value = VeryHigh;
+
+    printf("Value: %d", value);
+    return 0;
+}
